@@ -2,7 +2,7 @@
 id: wwjzwwtd44gqt3h70y5ykig
 title: Index html generation failed
 desc: ''
-updated: 1646808875945
+updated: 1646808927616
 created: 1646806836446
 ---
 
@@ -25,3 +25,4 @@ add this to `angular.json`
  }
 ```
 
+1
