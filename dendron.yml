@@ -84,6 +84,8 @@ publishing:
         - root
     writeStubs: false
     siteRootDir: docs
+    assetsPrefix: /Notes
+    siteUrl: https://domischenk.github.io
     seo:
         title: Dendron
         description: Personal Knowledge Space
