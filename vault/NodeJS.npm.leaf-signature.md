@@ -8,5 +8,5 @@ created: 1648109276021
 
 To disable this check you can run the following command:
 ```
-    run npm config set strict-ssl false
+    $ npm config set strict-ssl false
 ```
