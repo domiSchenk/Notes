@@ -1,0 +1,109 @@
+<h1 id="pnpm"><a aria-hidden="true" class="anchor-heading" href="#pnpm"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>PNPM</h1>
+<h1 id="pnpm-1"><a aria-hidden="true" class="anchor-heading" href="#pnpm-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>PNPM</h1>
+<h2 id="fast-cli"><a aria-hidden="true" class="anchor-heading" href="#fast-cli"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Fast CLI</h2>
+<p>=> pnpx </p>
+<h2 id="commands"><a aria-hidden="true" class="anchor-heading" href="#commands"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Commands</h2>
+<h3 id="add"><a aria-hidden="true" class="anchor-heading" href="#add"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Add</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>npm command</th><th>pnpm equivalent</th></tr></thead><tbody><tr><td><code>npm install</code></td><td><code>pnpm install</code></td></tr><tr><td><code>npm i &#x3C;pkg></code></td><td><code>pnpm add &#x3C;pkg></code></td></tr><tr><td><code>npm run &#x3C;cmd></code></td><td><code>pnpm &#x3C;cmd></code></td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Command</th><th>Meaning</th><th></th></tr></thead><tbody><tr><td><code>pnpm add sax</code></td><td>Save to <code>dependencies</code></td><td></td></tr><tr><td><code>pnpm add -D sax</code></td><td>Save to <code>devDependencies</code></td><td></td></tr><tr><td><code>pnpm add -O sax</code></td><td>Save to <code>optionalDependencies</code></td><td></td></tr><tr><td><code>pnpm add sax@next</code></td><td>Install from the <code>next</code> tag</td><td></td></tr><tr><td><code>pnpm add sax@3.0.0</code></td><td>Specify version <code>3.0.0</code></td><td></td></tr></tbody></table>
+<h3 id="update"><a aria-hidden="true" class="anchor-heading" href="#update"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Update</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Command</th><th>Meaning</th></tr></thead><tbody><tr><td><code>pnpm up</code></td><td>Updates all dependencies, adhering to ranges specified in <code>package.json</code></td></tr><tr><td><code>pnpm up --latest</code></td><td>Updates all dependencies, ignoring ranges specified in <code>package.json</code></td></tr><tr><td><code>pnpm up foo@2</code></td><td>Updates <code>foo</code> to the latest version on v2</td></tr><tr><td><code>pnpm up "@babel/\*"</code></td><td>Updates all dependencies under the <code>@babel</code> scope</td></tr></tbody></table>
+<h4 id="interactive"><a aria-hidden="true" class="anchor-heading" href="#interactive"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Interactive</h4>
+<p><code>--interactive, -i</code></p>
+<h3 id="remove"><a aria-hidden="true" class="anchor-heading" href="#remove"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Remove</h3>
+<p>Aliases: rm, uninstall, un</p>
+<p>Removes packages from <code>node_modules</code> and from the project's <code>package.json</code>.</p>
+<h4 id="options"><a aria-hidden="true" class="anchor-heading" href="#options"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Options</h4>
+<h5 id="--recursive--r"><a aria-hidden="true" class="anchor-heading" href="#--recursive--r"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>--recursive, -r</h5>
+<p>When used inside a workspace, removes a dependency (or dependencies) from every workspace package.</p>
+<p>When used not inside a workspace, removes a dependency (or dependencies) from
+every package found in subdirectories.</p>
+<h5 id="--global"><a aria-hidden="true" class="anchor-heading" href="#--global"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>--global</h5>
+<p>Remove a global package.</p>
+<h5 id="--save-dev--d"><a aria-hidden="true" class="anchor-heading" href="#--save-dev--d"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>--save-dev, -D</h5>
+<p>Only remove the dependency from <code>devDependencies</code>.</p>
+<h5 id="--save-optional--o"><a aria-hidden="true" class="anchor-heading" href="#--save-optional--o"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>--save-optional, -O</h5>
+<p>Only remove the dependency from <code>optionalDependencies</code>.</p>
+<h5 id="--save-prod--p"><a aria-hidden="true" class="anchor-heading" href="#--save-prod--p"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>--save-prod, -P</h5>
+<p>Only remove the dependency from <code>dependencies</code>.</p>
