@@ -1,0 +1,18 @@
+<h1 id="index-html-generation-failed"><a aria-hidden="true" class="anchor-heading icon-link" href="#index-html-generation-failed"></a>Index html generation failed</h1>
+<h1 id="index-html-generation-failed-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#index-html-generation-failed-1"></a>Index html generation failed</h1>
+<h2 id="property-missing-"><a aria-hidden="true" class="anchor-heading icon-link" href="#property-missing-"></a>Property Missing ':'</h2>
+<p><img src="/Notes/assets/images/index-html-gen-failed.png"></p>
+<p>If this happens, somewhere in a CSS file, a non base64 svg is used!
+Something like this:</p>
+<blockquote>
+<p>background-image: url("data:image/svg+xml,%3Csvg xmlns='<a href="http://www.w3.org/2000/svg&#x27;">http://www.w3.org/2000/svg'</a> width='540' height='450' viewBox='0 0 1080 900'%3E%3Cg6...");</p>
+</blockquote>
+<h3 id="solution"><a aria-hidden="true" class="anchor-heading icon-link" href="#solution"></a>Solution</h3>
+<p>add this to <code>angular.json</code></p>
+<pre class="language-json"><code class="language-json"><span class="token property">"optimization"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+	<span class="token property">"styles"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token property">"inlineCritical"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+	<span class="token punctuation">}</span>
+ <span class="token punctuation">}</span>
+</code></pre>
+<p>1</p>

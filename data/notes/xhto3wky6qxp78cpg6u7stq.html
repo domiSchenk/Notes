@@ -1,0 +1,5 @@
+<h1 id="volumes"><a aria-hidden="true" class="anchor-heading icon-link" href="#volumes"></a>Volumes</h1>
+<h1 id="docker-volumes"><a aria-hidden="true" class="anchor-heading icon-link" href="#docker-volumes"></a>Docker Volumes</h1>
+<h2 id="create-external-volume"><a aria-hidden="true" class="anchor-heading icon-link" href="#create-external-volume"></a>Create external volume</h2>
+<pre class="language-bash"><code class="language-bash"><span class="token function">docker</span> volume create --driver <span class="token builtin class-name">local</span> --opt <span class="token assign-left variable">type</span><span class="token operator">=</span>none --opt <span class="token assign-left variable">device</span><span class="token operator">=</span>/home/domischenk/share --opt <span class="token assign-left variable">o</span><span class="token operator">=</span>bind <span class="token operator">&#x3C;</span>name<span class="token operator">></span>
+</code></pre>

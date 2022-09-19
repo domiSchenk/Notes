@@ -1,0 +1,109 @@
+<h1 id="pnpm"><a aria-hidden="true" class="anchor-heading icon-link" href="#pnpm"></a>PNPM</h1>
+<h1 id="pnpm-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#pnpm-1"></a>PNPM</h1>
+<h2 id="fast-cli"><a aria-hidden="true" class="anchor-heading icon-link" href="#fast-cli"></a>Fast CLI</h2>
+<p>=> pnpx </p>
+<h2 id="commands"><a aria-hidden="true" class="anchor-heading icon-link" href="#commands"></a>Commands</h2>
+<h3 id="add"><a aria-hidden="true" class="anchor-heading icon-link" href="#add"></a>Add</h3>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>npm command</th><th>pnpm equivalent</th></tr></thead><tbody><tr><td><code>npm install</code></td><td><code>pnpm install</code></td></tr><tr><td><code>npm i &#x3C;pkg></code></td><td><code>pnpm add &#x3C;pkg></code></td></tr><tr><td><code>npm run &#x3C;cmd></code></td><td><code>pnpm &#x3C;cmd></code></td></tr></tbody></table></div>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Command</th><th>Meaning</th><th></th></tr></thead><tbody><tr><td><code>pnpm add sax</code></td><td>Save to <code>dependencies</code></td><td></td></tr><tr><td><code>pnpm add -D sax</code></td><td>Save to <code>devDependencies</code></td><td></td></tr><tr><td><code>pnpm add -O sax</code></td><td>Save to <code>optionalDependencies</code></td><td></td></tr><tr><td><code>pnpm add sax@next</code></td><td>Install from the <code>next</code> tag</td><td></td></tr><tr><td><code>pnpm add sax@3.0.0</code></td><td>Specify version <code>3.0.0</code></td><td></td></tr></tbody></table></div>
+<h3 id="update"><a aria-hidden="true" class="anchor-heading icon-link" href="#update"></a>Update</h3>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Command</th><th>Meaning</th></tr></thead><tbody><tr><td><code>pnpm up</code></td><td>Updates all dependencies, adhering to ranges specified in <code>package.json</code></td></tr><tr><td><code>pnpm up --latest</code></td><td>Updates all dependencies, ignoring ranges specified in <code>package.json</code></td></tr><tr><td><code>pnpm up foo@2</code></td><td>Updates <code>foo</code> to the latest version on v2</td></tr><tr><td><code>pnpm up "@babel/\*"</code></td><td>Updates all dependencies under the <code>@babel</code> scope</td></tr></tbody></table></div>
+<h4 id="interactive"><a aria-hidden="true" class="anchor-heading icon-link" href="#interactive"></a>Interactive</h4>
+<p><code>--interactive, -i</code></p>
+<h3 id="remove"><a aria-hidden="true" class="anchor-heading icon-link" href="#remove"></a>Remove</h3>
+<p>Aliases: rm, uninstall, un</p>
+<p>Removes packages from <code>node_modules</code> and from the project's <code>package.json</code>.</p>
+<h4 id="options"><a aria-hidden="true" class="anchor-heading icon-link" href="#options"></a>Options</h4>
+<h5 id="--recursive--r"><a aria-hidden="true" class="anchor-heading icon-link" href="#--recursive--r"></a>--recursive, -r</h5>
+<p>When used inside a workspace, removes a dependency (or dependencies) from every workspace package.</p>
+<p>When used not inside a workspace, removes a dependency (or dependencies) from
+every package found in subdirectories.</p>
+<h5 id="--global"><a aria-hidden="true" class="anchor-heading icon-link" href="#--global"></a>--global</h5>
+<p>Remove a global package.</p>
+<h5 id="--save-dev--d"><a aria-hidden="true" class="anchor-heading icon-link" href="#--save-dev--d"></a>--save-dev, -D</h5>
+<p>Only remove the dependency from <code>devDependencies</code>.</p>
+<h5 id="--save-optional--o"><a aria-hidden="true" class="anchor-heading icon-link" href="#--save-optional--o"></a>--save-optional, -O</h5>
+<p>Only remove the dependency from <code>optionalDependencies</code>.</p>
+<h5 id="--save-prod--p"><a aria-hidden="true" class="anchor-heading icon-link" href="#--save-prod--p"></a>--save-prod, -P</h5>
+<p>Only remove the dependency from <code>dependencies</code>.</p>

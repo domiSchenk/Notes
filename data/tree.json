@@ -1,0 +1,174 @@
+{
+  "roots": [
+    {
+      "key": "u357tao34nldm4nx49belid",
+      "title": "Angular",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "wwjzwwtd44gqt3h70y5ykig",
+          "title": "Index html generation failed",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "036r25iq9ziy6ug4cif29cx",
+      "title": "Chrome",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "y33qx9zh71louod0aasjgtm",
+          "title": "Localhost Https",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "jzngzf1c5whkrn3vt724kiu",
+      "title": "Docker",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "xhto3wky6qxp78cpg6u7stq",
+          "title": "Volumes",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "k5ijvyjlsg7coidd22hrhnb",
+      "title": "Dotnet",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "dotc8xugyouzxeo3segaycb",
+          "title": "IIS Dotnet Core ASPNETCORE_ENVIRONMENT",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "2zu0qikr1e0bd7fvo3ezt0y",
+          "title": "Reinstall nugets",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "zqdad68e186lpodr5uby4yy",
+      "title": "NodeJS",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "2o6ygrv1uq6e8apqnrmgum4",
+          "title": "PNPM",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "2zankrlx8jmk2wvmbq8iwr8",
+          "title": "Yarn",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "1tnsdan10g9d54f9pcvkba6",
+          "title": "NPM",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "m8v4ww3tq2hdo04d9sa50ya",
+              "title": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rvb2csrmqmtb1woqnhof0mh",
+      "title": "StencilJS",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": []
+    },
+    {
+      "key": "ok7ild07yiiytxdus30p6tt",
+      "title": "Git",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": []
+    }
+  ],
+  "child2parent": {
+    "u357tao34nldm4nx49belid": null,
+    "wwjzwwtd44gqt3h70y5ykig": "u357tao34nldm4nx49belid",
+    "036r25iq9ziy6ug4cif29cx": null,
+    "y33qx9zh71louod0aasjgtm": "036r25iq9ziy6ug4cif29cx",
+    "jzngzf1c5whkrn3vt724kiu": null,
+    "xhto3wky6qxp78cpg6u7stq": "jzngzf1c5whkrn3vt724kiu",
+    "k5ijvyjlsg7coidd22hrhnb": null,
+    "dotc8xugyouzxeo3segaycb": "k5ijvyjlsg7coidd22hrhnb",
+    "2zu0qikr1e0bd7fvo3ezt0y": "k5ijvyjlsg7coidd22hrhnb",
+    "zqdad68e186lpodr5uby4yy": null,
+    "2o6ygrv1uq6e8apqnrmgum4": "zqdad68e186lpodr5uby4yy",
+    "2zankrlx8jmk2wvmbq8iwr8": "zqdad68e186lpodr5uby4yy",
+    "1tnsdan10g9d54f9pcvkba6": "zqdad68e186lpodr5uby4yy",
+    "m8v4ww3tq2hdo04d9sa50ya": "1tnsdan10g9d54f9pcvkba6",
+    "rvb2csrmqmtb1woqnhof0mh": null,
+    "ok7ild07yiiytxdus30p6tt": null
+  },
+  "notesLabelById": {
+    "u357tao34nldm4nx49belid": "Angular",
+    "wwjzwwtd44gqt3h70y5ykig": "Index html generation failed",
+    "036r25iq9ziy6ug4cif29cx": "Chrome",
+    "y33qx9zh71louod0aasjgtm": "Localhost Https",
+    "jzngzf1c5whkrn3vt724kiu": "Docker",
+    "xhto3wky6qxp78cpg6u7stq": "Volumes",
+    "k5ijvyjlsg7coidd22hrhnb": "Dotnet",
+    "dotc8xugyouzxeo3segaycb": "IIS Dotnet Core ASPNETCORE_ENVIRONMENT",
+    "2zu0qikr1e0bd7fvo3ezt0y": "Reinstall nugets",
+    "zqdad68e186lpodr5uby4yy": "NodeJS",
+    "2o6ygrv1uq6e8apqnrmgum4": "PNPM",
+    "2zankrlx8jmk2wvmbq8iwr8": "Yarn",
+    "1tnsdan10g9d54f9pcvkba6": "NPM",
+    "m8v4ww3tq2hdo04d9sa50ya": "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+    "rvb2csrmqmtb1woqnhof0mh": "StencilJS",
+    "ok7ild07yiiytxdus30p6tt": "Git"
+  }
+}

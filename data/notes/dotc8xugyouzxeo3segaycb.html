@@ -1,0 +1,11 @@
+<h1 id="iis-dotnet-core-aspnetcore_environment"><a aria-hidden="true" class="anchor-heading icon-link" href="#iis-dotnet-core-aspnetcore_environment"></a>IIS Dotnet Core ASPNETCORE_ENVIRONMENT</h1>
+<h1 id="iis-settings"><a aria-hidden="true" class="anchor-heading icon-link" href="#iis-settings"></a>IIS Settings</h1>
+<ol>
+<li>Open the "Internet Information Services (IIS) Manager.</li>
+<li>Go to the Website where you want to set the environment variable.</li>
+<li>Find the "Configuration Editor".</li>
+<li>In the "Section" to the top left of the window, select <code>system.webServer/aspNetCore</code> in the dropdown and just to the right of this, REMEMBER to select <code>ApplicationHost.config</code>. If you forget, you will set this variable in the used <code>web.config</code> for the running site. Then of cause it will be overwritten when you deploy a new version of the website. The <code>ApplicationHost.config</code> sets it machine level, so the setting will live in a different place.</li>
+<li>Mark <code>environmentVariables</code> line and click the tree dots at the end to edit the list.</li>
+<li>Click the Add button and set the <code>name</code> to <code>ASPNETCORE_ENVIRONMENT</code> and <code>value</code> to <code>Development</code></li>
+</ol>
+<p>->   Close the window and restart the website. The website should now have the ASPNETCORE_ENVIRONMENT variable set to <code>Development</code></p>

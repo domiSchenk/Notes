@@ -1,0 +1,12 @@
+<h1 id="reinstall-nugets"><a aria-hidden="true" class="anchor-heading icon-link" href="#reinstall-nugets"></a>Reinstall nugets</h1>
+<h1 id="force-nuget-to-reinstall-packages-without-updating"><a aria-hidden="true" class="anchor-heading icon-link" href="#force-nuget-to-reinstall-packages-without-updating"></a>Force Nuget to Reinstall Packages without Updating</h1>
+<p>Occasionally I run into an issue where I’ll open a solution in Visual Studio, build it, and the build will fail because of dependent packages. I’ll try every way offered by Visual Studio to restore packages, but it will claim everything is up to date. Looking in Solution Explorer, you’ll see that some packages are clearly missing (icons on the packages showing they’re not there), but no amount of telling VS to restore packages (or building, which should do the restore as well) will get them.</p>
+<p>The fix for this is to open Package Manager Console and run this command:</p>
+<pre class="language-bash"><code class="language-bash">Update-Package -reinstall
+</code></pre>
+<p>Note: If you just run Update-Package, it will try to update all packages to the latest version, which isn’t necessarily what you want (especially if you’ve simply pulled from source control and want the project to just build with the versions of packages it has in source control).</p>
+<p>That’s it – this does the trick for me. If you want to narrow it down to a certain project, just make sure you’ve selected the correct active project, or use this:</p>
+<pre class="language-bash"><code class="language-bash">Update-Package -reinstall -Project ProjectName
+</code></pre>
+<h2 id="source"><a aria-hidden="true" class="anchor-heading icon-link" href="#source"></a>Source</h2>
+<p>Link: <a href="https://ardalis.com/force-nuget-to-reinstall-packages-without-updating/">https://ardalis.com/force-nuget-to-reinstall-packages-without-updating/</a></p>
